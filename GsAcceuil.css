@@ -1,0 +1,665 @@
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+body
+{
+   background:#8bc34a;
+}
+.legrandblock
+{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 60px;
+    background-color:white;
+}
+#block
+{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:998px) and (min-width:768px)
+{
+    .nom
+    {
+     animation: ecranmoyen 2s linear infinite;
+    }
+}
+@keyframes ecranmoyen
+{
+    0%
+    {
+        transform: scale(0.1);
+    }
+    100%
+    {
+        transform: scale(0.5);
+    }
+}
+
+.img
+{
+    width: 200px;
+    height: 200px;
+    border: 4px solid green;
+    border-radius: 50%;
+}
+.tofb
+{
+    width:550px;
+    height: 450px;
+}
+.panneau
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+    height:70px ;
+    margin-left: 70px;
+    margin-top: 20px;
+   }
+   .nom
+   {
+    font-size:xx-large;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-top: 60px;
+    border: 2px solid green;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 20px;
+    box-shadow:17px 7px  7px green;
+    animation: nom 0.8s ease infinite;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    
+   }
+   @keyframes nom
+   {
+    0%
+    {
+        transform:scale(0.5);
+       box-shadow:  17px 7px  7px green;
+    
+    }
+    100%
+    {
+       transform:scale(1);
+        box-shadow: 17 7px  7px black;
+        color: black;
+    }
+   }
+ @media (max-width:768px) and (min-width:0px)
+ {
+    .panneau
+    {
+        animation: petitecran 2s linear infinite;
+        margin-left: 35%;
+    }
+    .nom
+    {
+        visibility: hidden;
+    }
+    .blockimg
+    {
+        margin-top: 10px;
+    }
+ }
+ @keyframes petitecran 
+ {
+    0%
+    {
+        transform: scale(0.6);
+    }
+    100%
+    {
+        transform: scale(1.5);
+        
+    }
+ }
+ .presentation
+ {
+    font-size: larger;
+    font-weight: bolder;
+    margin-top:80px;
+    color: green;
+ }
+ li
+ {
+    font-family: Comic Sans MS;
+    color: black;
+    
+ }
+.images
+{
+  display: flex;
+  animation: defile 70s ease infinite;
+}
+@keyframes defile
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    5%
+    {
+      transform: translateX(-550px);
+    }
+    10%
+    {
+        transform: translateX(-1100px);
+    }
+    15%
+    {
+        transform: translateX(-1660px);
+    }
+    20%
+    {
+        transform: translateX(-2210);
+    }
+    25%
+    {
+        transform: translateX(-2760px);
+    }
+    30%
+    {
+        transform: translateX(-3310px);
+    }
+    35%
+    {
+        transform: translateX(-3860px);
+    }
+    40%
+    {
+        transform: translateX(-4410px);
+    }
+    45%
+    {
+        transform: translateX(-4960px);
+    }
+    50% 
+    {
+        transform: translateX(-5510px);
+    }
+    55% 
+    {
+        transform: translateX(-6060px);
+    }
+    60% 
+    {
+        transform: translateX(-6610px);
+    }
+    65% 
+    {
+        transform: translateX(-7160px);
+    }
+    70% 
+    {
+        transform: translateX(-7710px);
+    }
+    75% 
+    {
+        transform: translateX(-8260px);
+    }
+    80% 
+    {
+        transform: translateX(-8810px);
+    }
+    85% 
+    {
+        transform: translateX(-9360px);
+    }
+    90% 
+    {
+        transform: translateX(-9910px);
+    }
+    95% 
+    {
+        transform: translateX(-10460px);
+    }
+    100%
+    {
+        transform: translateX(0px);
+    }
+}
+#caroussel
+{ 
+    width:900px;
+    overflow:hidden;
+    box-shadow: 20px 10px 10px green;
+    
+}
+.blockimg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top:100px ;
+    border: 3px green solid;
+    padding: 20px;
+    box-shadow: 25px 10px 15px green;
+    background:grey
+}
+.presentationbolide
+{
+    color:black;
+    text-align: center;
+    font-weight: bolder;
+    font-size:x-large;
+    text-decoration:none;
+    font-family:Capitals ;
+    box-shadow: 20px 15px 17px green;
+    margin-top: 10px;
+}
+p
+{
+    text-align: center;
+    box-shadow: 15px 7px 7px black;
+    font-family:Comic Sans MS;
+}
+#caroussel2
+{
+    width: 900px;
+    overflow: hidden;
+    box-shadow: 15px 15px 15px green;
+}
+.presentation2
+{
+    
+    color:black;
+    text-align: center;
+    font-weight: bolder;
+    font-size:x-large;
+    text-decoration:none;
+    font-family:Capitals ;
+    box-shadow: 20px 15px 17px green;
+    margin-top: 30px;
+}
+.block2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top:70px;
+    background-color: white;
+    box-shadow: 15px 10px 10px black;
+    height: 1000px;
+    background:rgba(0,0,0,0.5)
+}
+.images1
+{
+    display: flex;
+    box-shadow: 15px 8px 9px green;
+    animation:vetements 60s ease infinite;
+    box-shadow: 50px 50px 50px green green;
+}
+@keyframes vetements
+{
+   0%
+   {
+    transform: translateX(0);
+   }
+   2.38%
+   {
+    transform: translateX(-900px);
+   }
+   4.76%
+   {
+    transform: translateX(-1800px);
+   }
+   7.14%
+   {
+    transform: translateX(-2700px);
+   }
+   9.52%
+   {
+    transform: translateX(-3600px);
+   }
+   11.9%
+   {
+    transform: translateX(-4500px);
+   }
+   14.28%
+   {
+    transform: translateX(-5600px);
+   }
+   16.66%
+   {
+    transform: translateX(-6300px);
+   }
+   19.04%
+   {
+    transform: translateX(-7200px);
+   }
+   21.42%
+   {
+    transform: translateX(-8100px);
+   }
+   23.8% 
+   {
+    transform: translateX(-9000px);
+   }
+   26.18% 
+   {
+    transform: translateX(-9900px);
+   }
+   28.56% 
+   {
+    transform: translateX(-10800px);
+   }
+   30.94% 
+   {
+       transform:translateX(-11700px);
+   }
+   33.32% 
+   {
+    transform: translateX(-12600px);
+   }
+   35.7% 
+   {
+    transform: translateX(-13500px);
+   }
+   38.08%
+   {
+         transform: translateX(-14400px);
+   }
+   40.46%
+   {
+    transform: translateX(-15300px);
+   }
+   42.84%
+   {
+    transform: translateX(-16200px);
+   }
+   45.22%
+   {
+    transform: translateX(-17100px);
+   }
+   47.6%
+   {
+    transform: translateX(-18000px);
+   }
+   49.98%
+   {
+    transform: translateX(-18900px);
+   }
+   52.36%
+   {
+    transform: translateX(-19800px);
+   }
+   54.74%
+   {
+    transform:translateX(-20700px)
+   }
+   57.12%
+   {
+    transform: translateX(-21600px);
+   }
+   59.50%
+   {
+    transform: translateX(-22500px);
+   }
+   61.88%
+   {
+    transform: translateX(-23400px);
+   }
+   64.26%
+   {
+    transform: translateX(-24300px);
+   }
+   66.64%
+   {
+    transform:translateX(-25200px);
+   }
+   69.02%
+   {
+    transform: translateX(-26100px);
+   }
+   71.40% 
+   {
+    transform: translateX(-27000px);
+   }
+   73.78%
+   {
+    transform: translateX(-27900px);
+   }
+   76.78% 
+   {
+    transform: translateX(-28800px);
+   }
+   78.54% 
+   {
+    transform: translateX(-29700px);
+   }
+   80.92%
+   {
+    transform: translateX(-30600px);
+   }
+   83.3%
+   {
+    transform: translateX(-31500px);
+   }
+   85.68%
+   {
+    transform: translateX(-32400px);
+   }
+   88.06%
+   {
+    transform: translateX(-33300px);
+   }
+   90.44%
+   {
+    transform: translateX(-34200px);
+   }
+   92.82%
+   {
+    transform: translateX(-35100px);
+   }
+   95.2%
+   {
+    transform: translateX(-36000px);
+   }
+   97.58%
+   {
+    transform: translateX(-36900px);
+   }
+   100%
+   {
+    transform: translateX(0px);
+   }
+}
+@media (max-width:998px) and (min-width:0px)
+{
+    img 
+    {
+        width: 300px;
+        height: 480px;
+    }
+    #caroussel2
+    {
+        width: 300px;
+        height: 480px;
+    }
+    .block2
+    {
+        width: 400px;
+        height: 500px;
+       }
+       .inscription
+       {
+        animation: animonsle 2s ease infinite;
+       }
+    
+
+}
+@keyframes animonsle 
+{
+    0% 
+    {
+        transform: translateX(-500px);
+    }
+    100%
+    {
+        transform: translateX(-300px);
+    }
+}
+
+@media (max-width:1400px) and (min-width:998px)
+{
+    #caroussel2
+    {
+        width: 900px;
+        height: 900px;
+    }
+    .block2
+    {
+        height: 900px;
+    }
+    .inscription
+    {
+        animation: animonsles 2s infinite ;
+    }
+    .block3
+    {
+        height: 900px;
+    }
+}
+@keyframes animonsles
+{
+    0% 
+    {
+        transform: translateX(-300px);
+    }
+    100%
+    {
+        transform: translateX(200px);
+    }
+}
+
+.presentationmontres
+{
+    
+    color:black;
+    text-align: center;
+    font-weight: bolder;
+    font-size:x-large;
+    text-decoration:none;
+    font-family:Capitals ;
+    box-shadow: 20px 15px 17px green;
+    margin-top: 10px;
+    background-color: white;
+}
+.block3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    box-shadow: 20px 20px 20px black;
+    background-color:white
+
+    
+}
+#caroussel3  
+{
+    width:600px;
+    height: 800px;
+    overflow: hidden;
+    box-shadow: 20px 20px 20px black;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.images2
+{
+    display: flex;
+    box-shadow: 15px 17px 20px black;
+    animation:montres 60s ease infinite ;
+
+}
+.imagesmontres
+{
+    width: 600px;
+    height: 300px;
+}
+@keyframes montres
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    10%
+    {
+        transform: translateX(-740px);
+    }
+    20% 
+    {
+        transform: translateX(-1480px);
+    }
+    30%
+    {
+        transform: translateX(-2220px);
+    }
+    40%
+    {
+        transform: translateX(-2960px);
+    }
+    50%
+    {
+        transform: translateX(-3700px);
+    }
+    60%
+    {
+        transform: translateX(-4440px);
+    }
+    70%
+    {
+        transform: translateX(-5180px);
+    }
+    80%
+    {
+        transform: translateX(-5920px);
+    }
+    90%
+    {
+        transform: translateX(-6660px);
+    }
+    100%
+    {
+        transform: translateX(0px);
+    }
+    
+}
+.imagesmontres
+{
+    width: 740px;
+    height: 900px;
+}
+a
+{
+    text-decoration:none;
+    font-size: large;
+    font-weight:bolder;
+    color: white;
+      
+}
+.inscription
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 550px;
+    margin-right: 500px;
+    border-radius:10px;
+    background-color:#2979ff;
+}
+
+
+

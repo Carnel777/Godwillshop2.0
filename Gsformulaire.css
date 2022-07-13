@@ -1,0 +1,244 @@
+body
+{
+    background-color: white;
+
+
+}
+.block1
+{
+    display: flex;
+    justify-content: space-between;
+}
+.imghaut1 , .imghaut2
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+.block,#texteform
+{
+    font-weight:1000px;
+    color:green;
+    margin-top: 50px;
+    border: 2px solid black;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top:40px;
+    border-radius: 3px;
+}
+.formulaire
+{
+    margin: 50px;
+    font-family: Comic Sans MS;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input
+{
+    height: 50px;
+    width: 500px;
+    margin: 10px;
+    border-radius: 3px;
+     box-shadow: 2px 2px 2px 2px green;
+
+}
+label
+{
+    font-family: Comic Sans MS;
+    font-weight: bolder;
+    font-size: large;
+}
+.img
+{
+    width: 30px ;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.btn1
+{
+    width: 20px;
+    height: 20px;
+}
+.contact
+{
+    font-family: Comic Sans MS;
+    display: block;
+    justify-content: center;
+}
+#fin
+{
+    font-family: ALGERIAN;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px green;
+}
+#bas01
+{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-left: 500px;
+}
+textarea
+{
+    width: 600px;
+    height: 70px;
+    border-radius: 4px;
+    margin-top: 0px;
+    box-shadow: 5px 5px 5px black;
+}
+.imgbas
+{
+    margin: 20px;
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+#bas11
+{
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.button1
+{
+    background-color:blue ;
+    font-size: larger;
+    color: white;
+    width: 90px;
+    height: 50px;
+    margin:20px 100px 20px 30px;
+    border-radius: 25%;
+    box-shadow: 5px 15px 15px blue;
+}
+.button2
+{
+    background-color: red;
+    width: 90px;
+    height: 50px;
+    margin: 20px 100px 20px 30px;
+    border-radius: 25%;
+    color: white;
+    font-size: larger;
+    box-shadow: 5px 15px 15px red;
+}
+#lesboutons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media (max-width:998px) and (min-width:0px)
+{
+    body 
+    {
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        width:90%;
+    }
+    .imghaut2
+    {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 2px solid green;
+        visibility: hidden;
+    }
+    .block,#texteform
+    {
+        font-weight:100px;
+        color:green;
+        border: 2px solid black;
+        border-radius: 3px;
+        padding: 0;
+        margin: 0;
+        visibility: hidden;
+
+    }
+    .formulaire
+    {
+        margin: 50px;
+        font-family: Comic Sans MS;
+        font-weight: bolder;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    input
+    {
+        height: 30px;
+        width: 100px;
+        margin: 30px;
+        border-radius: 3px;
+         box-shadow: 3px 3px 3px 3px green;
+    
+    }
+    label
+    {
+        font-family: Comic Sans MS;
+        font-weight: bolder;
+        font-size: large;
+    }
+    .img
+    {
+        width: 30px ;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+    
+    .btn1
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .contact
+    {
+        font-family: Comic Sans MS;
+        display: block;
+        justify-content: center;
+    }
+    #fin
+    {
+        font-family: ALGERIAN;
+        color: black;
+        text-align: center;
+        box-shadow: 10px 10px 10px 10px green;
+        width: 50%;
+        margin-left: 40px;
+    }
+    #bas01
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        margin-left: 500px;
+    }
+    textarea
+    {
+        width: 200px;
+        height: 30px;
+        border-radius: 2px;
+        margin-top: 0px;
+        box-shadow: 4px 4px 4px black;
+    }
+    .imgbas
+    {
+        margin: 20px;
+    }
+    #bas11
+    {
+        justify-content: center;
+        margin-left: 100px;
+        margin-right: 500px;
+}
+ }
