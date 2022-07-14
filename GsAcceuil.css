@@ -492,24 +492,10 @@ p
         width: 400px;
         height: 500px;
        }
-       .inscription
-       {
-        animation: animonsle 2s ease infinite;
-       }
     
 
 }
-@keyframes animonsle 
-{
-    0% 
-    {
-        transform: translateX(-500px);
-    }
-    100%
-    {
-        transform: translateX(-300px);
-    }
-}
+
 
 @media (max-width:1400px) and (min-width:998px)
 {
@@ -522,24 +508,10 @@ p
     {
         height: 900px;
     }
-    .inscription
-    {
-        animation: animonsles 2s infinite ;
-    }
+    
     .block3
     {
         height: 900px;
-    }
-}
-@keyframes animonsles
-{
-    0% 
-    {
-        transform: translateX(-300px);
-    }
-    100%
-    {
-        transform: translateX(200px);
     }
 }
 
