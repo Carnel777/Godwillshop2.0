@@ -495,7 +495,7 @@ p
     
     .inscription
     {
-        margin-left:-500px;
+        transform:translateX(-200px);
     }
     
 
